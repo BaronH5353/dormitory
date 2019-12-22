@@ -1,0 +1,8 @@
+<!-- <canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas> -->
+<canvas class = "canvas" id="chart2"
+canvas-id="L"></canvas>
+<!-- <canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas> -->
+<view class="Lux">室内有人时显示为1</view>
+<view class="Lux">室内无人时显示为0</view>

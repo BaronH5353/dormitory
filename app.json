@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wifi_station/tianqi/tianqi",
+    "pages/thievery/thievery"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#ADD8E6",
+    "navigationBarTitleText": "宿舍生活小助手",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+
+  "tabBar": {
+    "backgroundColor": "#ADD8E6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/splash/splash.png",
+        "selectedIconPath": "icons/splash/splash_s.png"
+      },
+      {
+        "pagePath": "pages/wifi_station/tianqi/tianqi",
+        "text": "温湿度",
+        "iconPath": "icons/tem_hum/temp_hum.png",
+        "selectedIconPath": "icons/tem_hum/temp_hum_s.png"
+      },
+      {
+        "pagePath": "pages/thievery/thievery",
+        "text": "防盗监测",
+        "iconPath": "icons/thievery/thievery.png",
+        "selectedIconPath": "icons/thievery/thievery_s.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}
